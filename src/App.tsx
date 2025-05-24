@@ -4,6 +4,7 @@ import StoryWorld from "./pages/StoryWorld";
 import Progress from "./pages/Progress";
 import NavBar from "./components/NavBar";
 import Footer from "./components/Footer";
+import VisualMockups from "./pages/VisualMockups";
 
 const App = () => {
   return (
@@ -13,6 +14,7 @@ const App = () => {
         <Route path="/" element={<Home />} />
         <Route path="/story" element={<StoryWorld />} />
         <Route path="/progress" element={<Progress />} />
+        <Route path="/mockups" element={<VisualMockups />} />
       </Routes>
       <Footer />
     </div>
